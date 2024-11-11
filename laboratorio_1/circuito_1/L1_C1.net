@@ -1,0 +1,6 @@
+* C:\users\jorge\Documents\FCEFyN\SRA\Laboratorio1\Laboratorios_Angeloff_Moyano\L1_C1.asc
+V1 N001 0 SINE(0 1 10)
+R1 N001 0 10
+.tran 0 1 0 0.1
+.backanno
+.end
