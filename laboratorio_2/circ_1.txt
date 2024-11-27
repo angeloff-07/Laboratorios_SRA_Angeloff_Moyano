@@ -2,4 +2,6 @@ Net list
 
 OpAmp LM384
 
+modification
+
 
