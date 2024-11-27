@@ -1,0 +1,5 @@
+Net list
+
+OpAmp LM384
+
+
