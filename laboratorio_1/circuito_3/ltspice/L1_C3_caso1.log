@@ -1,12 +1,11 @@
 LTspice 24.0.12 for Windows
-Circuit: * C:\users\jorge\Documents\FCEFyN\SRA\Laboratorios_SRA_Angeloff_Moyano\laboratorio_1\circuito_3\LTSpice\L1_C3.asc
-Start Time: Tue Mar 11 13:12:36 2025
+Circuit: * C:\users\jorge\Documents\FCEFyN\SRA\Laboratorios_SRA_Angeloff_Moyano\laboratorio_1\circuito_3\ltspice\L1_C3_caso1.asc
+Start Time: Fri Feb 28 11:34:16 2025
 solver = Normal
 Maximum thread count: 8
-tnom = 27
-temp = 27
-method = modified trap
-v1: Missing value, assumed 0V @ DC
+
+
+
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
@@ -18,48 +17,48 @@ vernier = 0.125
 vernier = 0.0625
 vernier = 0.03125
 vernier = 0.015625
-Gmin = 2.5611
 vernier = 0.0078125
+Gmin = 2.60112
 vernier = 0.0104167
 vernier = 0.00520833
 vernier = 0.00260417
-Gmin = 2.53459
+Gmin = 2.57251
 vernier = 0.00347222
-Gmin = 2.51487
-vernier = 0.00462963
-vernier = 0.00231481
+vernier = 0.00173611
+vernier = 0.000868055
+Gmin = 2.5586
 vernier = 0.00115741
+Gmin = 2.55213
 vernier = 0.00154321
-Gmin = 2.5093
 vernier = 0.00205761
 vernier = 0.00102881
 vernier = 0.000514403
-Gmin = 2.50253
+Gmin = 2.5455
 vernier = 0.00068587
-Gmin = 2.49867
+Gmin = 2.54168
 vernier = 0.000914493
 vernier = 0.00121932
 vernier = 0.000609662
-Gmin = 2.49373
 vernier = 0.000457246
+Gmin = 2.53776
 vernier = 0.000609662
-Gmin = 2.49078
+Gmin = 2.53438
 vernier = 0.000812882
 vernier = 0.00108384
 vernier = 0.000541921
-Gmin = 2.48699
 vernier = 0.000406441
+Gmin = 2.53091
 vernier = 0.000541921
-Gmin = 2.48438
+Gmin = 2.52791
 vernier = 0.000722561
 vernier = 0.000541921
 vernier = 0.000406441
-Gmin = 2.48245
 vernier = 0.000541921
+Gmin = 2.52594
 vernier = 0.000722561
 vernier = 0.000541921
 vernier = 0.000406441
-Gmin = 2.48018
+Gmin = 2.52372
 vernier = 0.000541921
 vernier = 0.00040644
 Gmin = 0
@@ -72,5 +71,18 @@ Source Step = 63.6364%
 Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.997 seconds.
+.step vin=0.01
+
+
+
+.step vin=1
+
+
+
+.step vin=5
+tnom = 27
+temp = 27
+method = modified trap
+.step vin=10
+Total elapsed time: 3.369 seconds.
 
